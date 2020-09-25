@@ -1,4 +1,4 @@
-.button {
+%button {
   background-color: $accent-color;
   color: $primary-white-color;
   font-size: 16px;
@@ -21,6 +21,7 @@
 }
 
 .filter__button {
+  @extend %button;
   color: $primary-text-color;
   background: $background-blue-color;
   padding: 6px 22px;
@@ -30,6 +31,7 @@
   transition-duration: 250ms;
   transition-timing-function: $timing-function;
 }
+
 .portfolio__buttons {
   padding-top: 94px;
   padding-bottom: 50px;

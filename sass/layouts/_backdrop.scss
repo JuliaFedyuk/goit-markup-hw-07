@@ -181,6 +181,7 @@
 }
 
 .modal__submit--button {
+  @extend %button;
   margin-left: 124px;
 }
 

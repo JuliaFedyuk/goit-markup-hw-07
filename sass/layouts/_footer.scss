@@ -2,28 +2,40 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $background-dark-color;
-}
 
-.footer__address {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: $primary-white-color;
-  padding-top: 20px;
-}
+  &__address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+    padding-top: 20px;
+  }
 
-.footer__title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $primary-white-color;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  &__part {
+    display: block;
+  }
+
+  &__part:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  &__part .social__icon {
+    fill: $primary-white-color;
+  }
 }
 
 .contact__links {
@@ -34,18 +46,6 @@
 .contact__links--item {
   margin-top: 9px;
   color: $primary-grey-color;
-}
-
-.footer__part {
-  display: block;
-}
-
-.footer__part:not(:last-child) {
-  margin-right: 70px;
-}
-
-.footer__part .social__icon {
-  fill: $primary-white-color;
 }
 
 .social__item:hover {

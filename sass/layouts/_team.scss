@@ -3,12 +3,29 @@
   width: auto;
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &__field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  &__member {
+    text-align: center;
+    background-color: $primary-white-color;
+    height: 428px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  &__member:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.team__field {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+.member__information {
+  padding-top: 30px;
 }
 
 .name__title {
@@ -19,23 +36,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
-}
-
-.team__member {
-  text-align: center;
-  background-color: $primary-white-color;
-  height: 428px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team__member:not(:last-child) {
-  margin-right: 30px;
-}
-
-.member__information {
-  padding-top: 30px;
 }
 
 .member__name {
